@@ -1,0 +1,19 @@
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--text-color);
+    font-weight: 400;
+    background-color: var(--surface-ground);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.2;
+}
+.bg-secondary{
+    background-color: var(--secondary-color);
+}
+.text-error{
+    color:var(--text-error);
+}
