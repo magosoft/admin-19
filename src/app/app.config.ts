@@ -9,7 +9,7 @@ import Aura from '@primeng/themes/aura';
 import { PaletteGenerator } from './utils/palette-generator';
 const MyPreset = definePreset(Aura, {
   semantic: {
-    primary: PaletteGenerator.generatePalette('#03fc4e'),
+    primary: PaletteGenerator.generatePalette('#22c55e'),
     colorScheme: {
       light: {
         text: {
@@ -23,10 +23,10 @@ const MyPreset = definePreset(Aura, {
   },
   extend: {
     secondary: {
-      color:'#005500'
+      color: '#005500'
     },
-    text:{
-      error:'#FF0000'
+    text: {
+      error: '#FF0000'
     }
   }
 });
