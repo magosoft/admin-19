@@ -11,6 +11,7 @@ import { PrimeNG } from 'primeng/config';
 export class AppComponent {
   title = 'admin';
   constructor(private config: PrimeNG){
+    
     //config.setTranslation()
   }
 }
